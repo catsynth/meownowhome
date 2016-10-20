@@ -2,7 +2,7 @@
 React = require "react"
 { Component } = React
 ReactNative = require "react-native"
-{ AppRegistry, TextInput, Text, StyleSheet, ScrollView } = ReactNative
+{ AppRegistry, TextInput, View, Text, StyleSheet, ScrollView, TabBarIOS } = ReactNative
 
 
 class TaskView extends Component
@@ -13,7 +13,7 @@ class TaskView extends Component
     </Text>
 
 
-class Application extends Component
+class TodayView extends Component
 
   constructor: (props) ->
     this.state = {
@@ -35,11 +35,11 @@ class Application extends Component
         itemRenders = []
         for item,i in this.state.tasks
             itemRenders.push(<TaskView key={i} text={item.text}></TaskView>)
-        <ScrollView>
+        <ScrollView style={styles.today}>
           {itemRenders}
           <TextInput
             ref='Input'
-            style={{marginTop: 50, height: 200, borderColor: 'gray', borderWidth: 0}}
+            style={{marginTop: 100, height: 200, borderColor: 'gray', borderWidth: 0}}
             onChangeText={(text) => this.setState({text})}
             onSubmitEditing={(event) =>
                                 this.updateText(event.nativeEvent.text)
@@ -47,6 +47,43 @@ class Application extends Component
             value={this.state.text  }
           />
         </ScrollView>
+
+
+class Application extends Component
+
+  constructor: (props) ->
+    super props
+    @state =
+      selectedTab : 'today'
+
+
+  render: ->
+      <TabBarIOS unselectedTintColor="lightgray"
+                         tintColor="white"
+                         barTintColor="black">
+          <TabBarIOS.Item title="TODAY"
+              selected={this.state.selectedTab == 'today'}
+              onPress={() =>
+                this.setState {
+                  selectedTab: 'today',
+                }
+              }>
+            <TodayView />
+          </TabBarIOS.Item>
+          <TabBarIOS.Item title="MY LIST"
+              selected={this.state.selectedTab == 'mylist'}
+              onPress={() =>
+                this.setState {
+                  selectedTab: 'mylist',
+                }
+              }>
+            <View />
+          </TabBarIOS.Item>
+          <TabBarIOS.Item title="PROFILE">
+            <View />
+          </TabBarIOS.Item>
+      </TabBarIOS>
+
 
 
 styles = StyleSheet.create
@@ -61,5 +98,7 @@ styles = StyleSheet.create
     marginRight: 15
     color: '#FFFFFF'
     backgroundColor: 'darkgray'
+  today:
+    backgroundColor: 'white'
 
 AppRegistry.registerComponent 'MeowNowHome', () -> Application
