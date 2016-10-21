@@ -4,14 +4,9 @@ React = require "react"
 ReactNative = require "react-native"
 { AppRegistry, TextInput, View, Text, StyleSheet, ScrollView, TabBarIOS } = ReactNative
 
-
-class TaskView extends Component
-
-  render: ->
-    <Text style={styles.task}>
-      {@props.text}
-    </Text>
-
+styles = (require "./styles.js").styles
+TaskView = (require "./taskview.js").TaskView
+Task = (require "./task.js").Task
 
 class TodayView extends Component
 
@@ -23,19 +18,14 @@ class TodayView extends Component
     }
 
    updateText: (text) =>
-      this.setState (state) =>
-        state.tasks.push {text:text}
-        {
-          text: "",
-          tasks: state.tasks
-        }
-
+      task = Task.new(1,text,0)
+      this.setState({text : ""})
 
   render: ->
         itemRenders = []
-        for item,i in this.state.tasks
-            itemRenders.push(<TaskView key={i} text={item.text}></TaskView>)
-        <ScrollView style={styles.today}>
+        for item,i in Task.allTasks()
+            itemRenders.push(<TaskView key={i} task={item}></TaskView>)
+        <ScrollView>
           {itemRenders}
           <TextInput
             ref='Input'
@@ -84,21 +74,5 @@ class Application extends Component
           </TabBarIOS.Item>
       </TabBarIOS>
 
-
-
-styles = StyleSheet.create
-  heading:
-    fontSize: 42
-    textAlign: 'center'
-    marginTop: 50
-  task:
-    fontSize: 24
-    marginTop: 15
-    marginLeft: 15
-    marginRight: 15
-    color: '#FFFFFF'
-    backgroundColor: 'darkgray'
-  today:
-    backgroundColor: 'white'
 
 AppRegistry.registerComponent 'MeowNowHome', () -> Application
