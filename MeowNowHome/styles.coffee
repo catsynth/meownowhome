@@ -14,6 +14,15 @@ styles = StyleSheet.create
     marginRight: 15
     color: '#FFFFFF'
     backgroundColor: 'darkgray'
+  checkbox:
+    width : 20
+    fontSize: 24
+    marginTop: 15
+    marginLeft: 5
+    color: '#FFFFFF'
+    backgroundColor: 'darkgray'
+  taskrow:
+    flexDirection:'row'
 
 
 exports.styles = styles
