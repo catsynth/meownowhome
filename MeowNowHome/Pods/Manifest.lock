@@ -1,0 +1,220 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AWSCognito (2.9.4):
+    - AWSCore (= 2.9.4)
+  - AWSCore (2.9.4)
+  - AWSS3 (2.9.4):
+    - AWSCore (= 2.9.4)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Bow (0.3.0)
+  - CatSynthShared (0.9.5):
+    - Alamofire
+    - AlamofireImage
+    - AWSCognito
+    - AWSCore
+    - AWSS3
+    - CryptoSwift
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase/Core
+    - RxAlamofire
+    - RxSwift
+    - UIDevice-Hardware
+    - YapDatabase
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
+  - CryptoSwift (1.0.0)
+  - FBSDKCoreKit (4.44.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.0):
+    - FBSDKCoreKit
+  - Firebase/Core (5.20.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.0)
+  - Firebase/CoreOnly (5.20.1):
+    - FirebaseCore (= 5.4.1)
+  - FirebaseAnalytics (5.8.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - GoogleAppMeasurement (5.8.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.5.0)
+  - GoogleUtilities/Logger (5.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.5.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.5.0)"
+  - GoogleUtilities/Reachability (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.5.0):
+    - GoogleUtilities/Logger
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - RxAlamofire (4.4.1):
+    - RxAlamofire/Core (= 4.4.1)
+  - RxAlamofire/Core (4.4.1):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 4.5)
+  - RxSwift (4.5.0)
+  - UIDevice-Hardware (0.1.13)
+  - YapDatabase (3.1.2):
+    - YapDatabase/Standard (= 3.1.2)
+  - YapDatabase/Standard (3.1.2):
+    - YapDatabase/Standard/Core (= 3.1.2)
+    - YapDatabase/Standard/Extensions (= 3.1.2)
+  - YapDatabase/Standard/Core (3.1.2):
+    - CocoaLumberjack
+  - YapDatabase/Standard/Extensions (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/ActionManager (= 3.1.2)
+    - YapDatabase/Standard/Extensions/AutoView (= 3.1.2)
+    - YapDatabase/Standard/Extensions/CloudCore (= 3.1.2)
+    - YapDatabase/Standard/Extensions/CloudKit (= 3.1.2)
+    - YapDatabase/Standard/Extensions/ConnectionPool (= 3.1.2)
+    - YapDatabase/Standard/Extensions/ConnectionProxy (= 3.1.2)
+    - YapDatabase/Standard/Extensions/CrossProcessNotification (= 3.1.2)
+    - YapDatabase/Standard/Extensions/FilteredView (= 3.1.2)
+    - YapDatabase/Standard/Extensions/FullTextSearch (= 3.1.2)
+    - YapDatabase/Standard/Extensions/Hooks (= 3.1.2)
+    - YapDatabase/Standard/Extensions/ManualView (= 3.1.2)
+    - YapDatabase/Standard/Extensions/Relationships (= 3.1.2)
+    - YapDatabase/Standard/Extensions/RTreeIndex (= 3.1.2)
+    - YapDatabase/Standard/Extensions/SearchResultsView (= 3.1.2)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 3.1.2)
+    - YapDatabase/Standard/Extensions/View (= 3.1.2)
+  - YapDatabase/Standard/Extensions/ActionManager (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+  - YapDatabase/Standard/Extensions/AutoView (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/CloudCore (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CloudKit (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ConnectionPool (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ConnectionProxy (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CrossProcessNotification (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/FilteredView (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/FullTextSearch (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Hooks (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ManualView (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/Relationships (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/RTreeIndex (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/SearchResultsView (3.1.2):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+    - YapDatabase/Standard/Extensions/FullTextSearch
+  - YapDatabase/Standard/Extensions/SecondaryIndex (3.1.2):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/View (3.1.2):
+    - YapDatabase/Standard/Core
+
+DEPENDENCIES:
+  - Bow
+  - CatSynthShared (from `../../catsynth-shared`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AWSCognito
+    - AWSCore
+    - AWSS3
+    - Bolts
+    - Bow
+    - CocoaLumberjack
+    - CryptoSwift
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - RxAlamofire
+    - RxSwift
+    - UIDevice-Hardware
+    - YapDatabase
+
+EXTERNAL SOURCES:
+  CatSynthShared:
+    :path: "../../catsynth-shared"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AWSCognito: cc1bcbea1383e54764e67688a04af5895cf78625
+  AWSCore: 8539eaa1d687d50b6b127db5cb600e4c6b37cd4e
+  AWSS3: fe1b6c1880dde60c33e6c1afcf23c3a805c99a49
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bow: 00d66a7e26595923fc1b0aee922edaa84395b95d
+  CatSynthShared: a284c7f3c1057e7bf39a372ebab5567b8077869e
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  FBSDKCoreKit: 8bcd4503afe43f28823c2175a6142a7f50f1bf28
+  FBSDKLoginKit: 93c5a407ab1a6a17b1b38cff57e89991f714d878
+  Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
+  FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
+  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  UIDevice-Hardware: c10ce5703fa8de762079b84236c548cf31223531
+  YapDatabase: d8cd02058e36bc0902e405d8f3326eb8d7dbf36c
+
+PODFILE CHECKSUM: 2e9bb3e3aec44f9a12010d0cf20390b7987f8aaf
+
+COCOAPODS: 1.5.3

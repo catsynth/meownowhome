@@ -1,0 +1,6 @@
+framework module CatSynthShared {
+  umbrella header "CatSynthShared-umbrella.h"
+
+  export *
+  module * { export * }
+}

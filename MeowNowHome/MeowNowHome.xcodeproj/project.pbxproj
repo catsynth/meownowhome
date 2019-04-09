@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026982D3329C66F44AA54ADB /* Pods_MeowNowHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AB9A860B3835E7A2890745 /* Pods_MeowNowHomeTests.framework */; };
+		6BF6AF6DCFDFED46810BD4E7 /* Pods_MeowNowHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5248624F79695FC71DE5F31E /* Pods_MeowNowHome.framework */; };
+		C822542A225D246A001A2938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8225429225D246A001A2938 /* AppDelegate.swift */; };
+		C822542C225D246A001A2938 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542B225D246A001A2938 /* FirstViewController.swift */; };
+		C822542E225D246A001A2938 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542D225D246A001A2938 /* SecondViewController.swift */; };
+		C8225431225D246A001A2938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C822542F225D246A001A2938 /* Main.storyboard */; };
+		C8225433225D246B001A2938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8225432225D246B001A2938 /* Assets.xcassets */; };
+		C8225436225D246B001A2938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8225434225D246B001A2938 /* LaunchScreen.storyboard */; };
+		C8225441225D246B001A2938 /* MeowNowHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8225440225D246B001A2938 /* MeowNowHomeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C822543D225D246B001A2938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C822541E225D246A001A2938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8225425225D246A001A2938;
+			remoteInfo = MeowNowHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1D49085B1D922FD6A0D210 /* Pods-MeowNowHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowNowHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeowNowHomeTests/Pods-MeowNowHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		30AB9A860B3835E7A2890745 /* Pods_MeowNowHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeowNowHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5248624F79695FC71DE5F31E /* Pods_MeowNowHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeowNowHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAB8E615229DD0123521A8C /* Pods-MeowNowHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowNowHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome.release.xcconfig"; sourceTree = "<group>"; };
+		9FC2DBA43E4EED1ED1DDE734 /* Pods-MeowNowHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowNowHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome.debug.xcconfig"; sourceTree = "<group>"; };
+		C8225426225D246A001A2938 /* MeowNowHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowNowHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8225429225D246A001A2938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C822542B225D246A001A2938 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C822542D225D246A001A2938 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C8225430225D246A001A2938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8225432225D246B001A2938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8225435225D246B001A2938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8225437225D246B001A2938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C822543C225D246B001A2938 /* MeowNowHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowNowHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8225440225D246B001A2938 /* MeowNowHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNowHomeTests.swift; sourceTree = "<group>"; };
+		C8225442225D246B001A2938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75AA721873F31EF5BDE97A5 /* Pods-MeowNowHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowNowHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeowNowHomeTests/Pods-MeowNowHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8225423225D246A001A2938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6AF6DCFDFED46810BD4E7 /* Pods_MeowNowHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8225439225D246B001A2938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026982D3329C66F44AA54ADB /* Pods_MeowNowHomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFAE9E51FBE8ACCEF4B80B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5248624F79695FC71DE5F31E /* Pods_MeowNowHome.framework */,
+				30AB9A860B3835E7A2890745 /* Pods_MeowNowHomeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C822541D225D246A001A2938 = {
+			isa = PBXGroup;
+			children = (
+				C8225428225D246A001A2938 /* MeowNowHome */,
+				C822543F225D246B001A2938 /* MeowNowHomeTests */,
+				C8225427225D246A001A2938 /* Products */,
+				D212FA9D47D41B007226D9FC /* Pods */,
+				BFAE9E51FBE8ACCEF4B80B4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8225427225D246A001A2938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8225426225D246A001A2938 /* MeowNowHome.app */,
+				C822543C225D246B001A2938 /* MeowNowHomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8225428225D246A001A2938 /* MeowNowHome */ = {
+			isa = PBXGroup;
+			children = (
+				C8225429225D246A001A2938 /* AppDelegate.swift */,
+				C822542B225D246A001A2938 /* FirstViewController.swift */,
+				C822542D225D246A001A2938 /* SecondViewController.swift */,
+				C822542F225D246A001A2938 /* Main.storyboard */,
+				C8225432225D246B001A2938 /* Assets.xcassets */,
+				C8225434225D246B001A2938 /* LaunchScreen.storyboard */,
+				C8225437225D246B001A2938 /* Info.plist */,
+			);
+			path = MeowNowHome;
+			sourceTree = "<group>";
+		};
+		C822543F225D246B001A2938 /* MeowNowHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8225440225D246B001A2938 /* MeowNowHomeTests.swift */,
+				C8225442225D246B001A2938 /* Info.plist */,
+			);
+			path = MeowNowHomeTests;
+			sourceTree = "<group>";
+		};
+		D212FA9D47D41B007226D9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2DBA43E4EED1ED1DDE734 /* Pods-MeowNowHome.debug.xcconfig */,
+				6DAB8E615229DD0123521A8C /* Pods-MeowNowHome.release.xcconfig */,
+				D75AA721873F31EF5BDE97A5 /* Pods-MeowNowHomeTests.debug.xcconfig */,
+				0E1D49085B1D922FD6A0D210 /* Pods-MeowNowHomeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8225425225D246A001A2938 /* MeowNowHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8225445225D246B001A2938 /* Build configuration list for PBXNativeTarget "MeowNowHome" */;
+			buildPhases = (
+				55ACA45932A5BBC5780FDF21 /* [CP] Check Pods Manifest.lock */,
+				C8225422225D246A001A2938 /* Sources */,
+				C8225423225D246A001A2938 /* Frameworks */,
+				C8225424225D246A001A2938 /* Resources */,
+				789ACB48FC8D1DE5EAC7840C /* [CP] Embed Pods Frameworks */,
+				B7178280CC9D20E1B81C922F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeowNowHome;
+			productName = MeowNowHome;
+			productReference = C8225426225D246A001A2938 /* MeowNowHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C822543B225D246B001A2938 /* MeowNowHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8225448225D246B001A2938 /* Build configuration list for PBXNativeTarget "MeowNowHomeTests" */;
+			buildPhases = (
+				E1B10DAD562A367E42F947F8 /* [CP] Check Pods Manifest.lock */,
+				C8225438225D246B001A2938 /* Sources */,
+				C8225439225D246B001A2938 /* Frameworks */,
+				C822543A225D246B001A2938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C822543E225D246B001A2938 /* PBXTargetDependency */,
+			);
+			name = MeowNowHomeTests;
+			productName = MeowNowHomeTests;
+			productReference = C822543C225D246B001A2938 /* MeowNowHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C822541E225D246A001A2938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = CatSynth;
+				TargetAttributes = {
+					C8225425225D246A001A2938 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C822543B225D246B001A2938 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C8225425225D246A001A2938;
+					};
+				};
+			};
+			buildConfigurationList = C8225421225D246A001A2938 /* Build configuration list for PBXProject "MeowNowHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C822541D225D246A001A2938;
+			productRefGroup = C8225427225D246A001A2938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8225425225D246A001A2938 /* MeowNowHome */,
+				C822543B225D246B001A2938 /* MeowNowHomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8225424225D246A001A2938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8225436225D246B001A2938 /* LaunchScreen.storyboard in Resources */,
+				C8225433225D246B001A2938 /* Assets.xcassets in Resources */,
+				C8225431225D246A001A2938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C822543A225D246B001A2938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55ACA45932A5BBC5780FDF21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeowNowHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789ACB48FC8D1DE5EAC7840C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Bow/Bow.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UIDevice-Hardware/UIDevice_Hardware.framework",
+				"${BUILT_PRODUCTS_DIR}/YapDatabase/YapDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIDevice_Hardware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YapDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7178280CC9D20E1B81C922F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CatSynthShared/CatSynthShared.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CatSynthShared.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeowNowHome/Pods-MeowNowHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B10DAD562A367E42F947F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeowNowHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8225422225D246A001A2938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C822542E225D246A001A2938 /* SecondViewController.swift in Sources */,
+				C822542A225D246A001A2938 /* AppDelegate.swift in Sources */,
+				C822542C225D246A001A2938 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8225438225D246B001A2938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8225441225D246B001A2938 /* MeowNowHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C822543E225D246B001A2938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8225425225D246A001A2938 /* MeowNowHome */;
+			targetProxy = C822543D225D246B001A2938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C822542F225D246A001A2938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8225430225D246A001A2938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8225434225D246B001A2938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8225435225D246B001A2938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8225443225D246B001A2938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8225444225D246B001A2938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8225446225D246B001A2938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC2DBA43E4EED1ED1DDE734 /* Pods-MeowNowHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeowNowHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catsynthappwerx.MeowNowHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8225447225D246B001A2938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAB8E615229DD0123521A8C /* Pods-MeowNowHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeowNowHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catsynthappwerx.MeowNowHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8225449225D246B001A2938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75AA721873F31EF5BDE97A5 /* Pods-MeowNowHomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeowNowHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catsynthappwerx.MeowNowHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNowHome.app/MeowNowHome";
+			};
+			name = Debug;
+		};
+		C822544A225D246B001A2938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1D49085B1D922FD6A0D210 /* Pods-MeowNowHomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeowNowHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.catsynthappwerx.MeowNowHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNowHome.app/MeowNowHome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8225421225D246A001A2938 /* Build configuration list for PBXProject "MeowNowHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8225443225D246B001A2938 /* Debug */,
+				C8225444225D246B001A2938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8225445225D246B001A2938 /* Build configuration list for PBXNativeTarget "MeowNowHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8225446225D246B001A2938 /* Debug */,
+				C8225447225D246B001A2938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8225448225D246B001A2938 /* Build configuration list for PBXNativeTarget "MeowNowHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8225449225D246B001A2938 /* Debug */,
+				C822544A225D246B001A2938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C822541E225D246A001A2938 /* Project object */;
+}

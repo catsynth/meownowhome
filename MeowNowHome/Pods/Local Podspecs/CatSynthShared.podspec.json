@@ -1,0 +1,72 @@
+{
+  "name": "CatSynthShared",
+  "version": "0.9.5",
+  "summary": "A short description of CatSynthShared.",
+  "module_name": "CatSynthShared",
+  "description": "Meow!",
+  "homepage": "https://github.com/catsynh/CatSynthShared",
+  "license": "MIT",
+  "authors": {
+    "Amanda Chaudhary": "amanda@ptank.com"
+  },
+  "source": {
+    "git": "git@github.com:catsynth/catsynth-shared.git",
+    "tag": "0.9.5"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "source_files": "Pod/Classes/**",
+  "resource_bundles": {
+    "CatSynthShared": [
+      "Pod/Assets/**"
+    ]
+  },
+  "public_header_files": "Pod/Classes/*.h",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "AlamofireImage": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxAlamofire": [
+
+    ],
+    "YapDatabase": [
+
+    ],
+    "FBSDKCoreKit": [
+
+    ],
+    "FBSDKLoginKit": [
+
+    ],
+    "UIDevice-Hardware": [
+
+    ],
+    "AWSCore": [
+
+    ],
+    "AWSS3": [
+
+    ],
+    "AWSCognito": [
+
+    ],
+    "Firebase/Core": [
+
+    ],
+    "CryptoSwift": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  }
+}
