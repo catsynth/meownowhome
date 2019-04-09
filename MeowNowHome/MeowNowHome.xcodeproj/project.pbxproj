@@ -45,6 +45,7 @@
 		C822543C225D246B001A2938 /* MeowNowHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowNowHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8225440225D246B001A2938 /* MeowNowHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNowHomeTests.swift; sourceTree = "<group>"; };
 		C8225442225D246B001A2938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8322B05225D25FF003FD6B3 /* BowPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BowPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D75AA721873F31EF5BDE97A5 /* Pods-MeowNowHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowNowHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeowNowHomeTests/Pods-MeowNowHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +81,7 @@
 		C822541D225D246A001A2938 = {
 			isa = PBXGroup;
 			children = (
+				C8322B05225D25FF003FD6B3 /* BowPlayground.playground */,
 				C8225428225D246A001A2938 /* MeowNowHome */,
 				C822543F225D246B001A2938 /* MeowNowHomeTests */,
 				C8225427225D246A001A2938 /* Products */,
